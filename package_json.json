@@ -1,0 +1,25 @@
+{
+  "name": "garden-layout-api",
+  "version": "1.0.0",
+  "description": "SVG Garden Layout Generator API for Make.com automation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "garden",
+    "svg",
+    "api",
+    "automation",
+    "plants"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
