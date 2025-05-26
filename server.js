@@ -75,7 +75,7 @@ function generateGardenSVG(data) {
     let svg = `<svg width="${svgWidth}" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg">`;
     
     // Add background
-    svg += `<rect width="${svgWidth}" height="${svgHeight}" fill="#8B4513" opacity="0.3"/>`;
+    svg += `<rect width="${svgWidth}" height="${svgHeight}" fill="#F5F5DC" opacity="0.3"/>`;
     
     // Add grid lines
     for (let i = 0; i <= width; i++) {
